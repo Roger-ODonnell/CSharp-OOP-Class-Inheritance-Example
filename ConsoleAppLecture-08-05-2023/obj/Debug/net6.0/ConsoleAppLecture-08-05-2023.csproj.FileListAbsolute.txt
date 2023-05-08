@@ -1,0 +1,30 @@
+C:\Users\roger\Desktop\Programing\C#\ConsoleAppLecture-08-05-2023\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ConsoleAppLecture-08-05-2023.csproj.AssemblyReference.cache
+C:\Users\roger\Desktop\Programing\C#\ConsoleAppLecture-08-05-2023\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ConsoleAppLecture-08-05-2023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roger\Desktop\Programing\C#\ConsoleAppLecture-08-05-2023\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ConsoleAppLecture-08-05-2023.AssemblyInfoInputs.cache
+C:\Users\roger\Desktop\Programing\C#\ConsoleAppLecture-08-05-2023\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ConsoleAppLecture-08-05-2023.AssemblyInfo.cs
+C:\Users\roger\Desktop\Programing\C#\ConsoleAppLecture-08-05-2023\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ConsoleAppLecture-08-05-2023.csproj.CoreCompileInputs.cache
+C:\Users\roger\Desktop\Programing\C#\ConsoleAppLecture-08-05-2023\ConsoleAppLecture-08-05-2023\bin\Debug\net6.0\ConsoleAppLecture-08-05-2023.exe
+C:\Users\roger\Desktop\Programing\C#\ConsoleAppLecture-08-05-2023\ConsoleAppLecture-08-05-2023\bin\Debug\net6.0\ConsoleAppLecture-08-05-2023.deps.json
+C:\Users\roger\Desktop\Programing\C#\ConsoleAppLecture-08-05-2023\ConsoleAppLecture-08-05-2023\bin\Debug\net6.0\ConsoleAppLecture-08-05-2023.runtimeconfig.json
+C:\Users\roger\Desktop\Programing\C#\ConsoleAppLecture-08-05-2023\ConsoleAppLecture-08-05-2023\bin\Debug\net6.0\ConsoleAppLecture-08-05-2023.dll
+C:\Users\roger\Desktop\Programing\C#\ConsoleAppLecture-08-05-2023\ConsoleAppLecture-08-05-2023\bin\Debug\net6.0\ConsoleAppLecture-08-05-2023.pdb
+C:\Users\roger\Desktop\Programing\C#\ConsoleAppLecture-08-05-2023\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ConsoleAppLecture-08-05-2023.dll
+C:\Users\roger\Desktop\Programing\C#\ConsoleAppLecture-08-05-2023\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\refint\ConsoleAppLecture-08-05-2023.dll
+C:\Users\roger\Desktop\Programing\C#\ConsoleAppLecture-08-05-2023\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ConsoleAppLecture-08-05-2023.pdb
+C:\Users\roger\Desktop\Programing\C#\ConsoleAppLecture-08-05-2023\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ConsoleAppLecture-08-05-2023.genruntimeconfig.cache
+C:\Users\roger\Desktop\Programing\C#\ConsoleAppLecture-08-05-2023\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ref\ConsoleAppLecture-08-05-2023.dll
+C:\Users\roger\Desktop\Programing\C#\OOP Inheritance Example Project\ConsoleAppLecture-08-05-2023\bin\Debug\net6.0\ConsoleAppLecture-08-05-2023.exe
+C:\Users\roger\Desktop\Programing\C#\OOP Inheritance Example Project\ConsoleAppLecture-08-05-2023\bin\Debug\net6.0\ConsoleAppLecture-08-05-2023.deps.json
+C:\Users\roger\Desktop\Programing\C#\OOP Inheritance Example Project\ConsoleAppLecture-08-05-2023\bin\Debug\net6.0\ConsoleAppLecture-08-05-2023.runtimeconfig.json
+C:\Users\roger\Desktop\Programing\C#\OOP Inheritance Example Project\ConsoleAppLecture-08-05-2023\bin\Debug\net6.0\ConsoleAppLecture-08-05-2023.dll
+C:\Users\roger\Desktop\Programing\C#\OOP Inheritance Example Project\ConsoleAppLecture-08-05-2023\bin\Debug\net6.0\ConsoleAppLecture-08-05-2023.pdb
+C:\Users\roger\Desktop\Programing\C#\OOP Inheritance Example Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ConsoleAppLecture-08-05-2023.csproj.AssemblyReference.cache
+C:\Users\roger\Desktop\Programing\C#\OOP Inheritance Example Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ConsoleAppLecture-08-05-2023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roger\Desktop\Programing\C#\OOP Inheritance Example Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ConsoleAppLecture-08-05-2023.AssemblyInfoInputs.cache
+C:\Users\roger\Desktop\Programing\C#\OOP Inheritance Example Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ConsoleAppLecture-08-05-2023.AssemblyInfo.cs
+C:\Users\roger\Desktop\Programing\C#\OOP Inheritance Example Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ConsoleAppLecture-08-05-2023.csproj.CoreCompileInputs.cache
+C:\Users\roger\Desktop\Programing\C#\OOP Inheritance Example Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ConsoleAppLecture-08-05-2023.dll
+C:\Users\roger\Desktop\Programing\C#\OOP Inheritance Example Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\refint\ConsoleAppLecture-08-05-2023.dll
+C:\Users\roger\Desktop\Programing\C#\OOP Inheritance Example Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ConsoleAppLecture-08-05-2023.pdb
+C:\Users\roger\Desktop\Programing\C#\OOP Inheritance Example Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ConsoleAppLecture-08-05-2023.genruntimeconfig.cache
+C:\Users\roger\Desktop\Programing\C#\OOP Inheritance Example Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ref\ConsoleAppLecture-08-05-2023.dll
