@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Security;
-
-namespace Lectures
+﻿namespace Lectures
 {
     class Program
     {
@@ -11,10 +8,36 @@ namespace Lectures
         static List<Student> StudentList = new List<Student>();
         private static void Main(string[] args)
         {
-            CreatePerson();
-            //Person created and added
-            //////////////////////////////////////////////////////////////////////
-            Console.WriteLine("Would you like to add a role to the person(y/n)");
+            Menu();
+        }
+
+        private static void CreatePerson()
+        {
+            gender personsGender = gender.unassigned;
+
+            Console.WriteLine("Enter persons name");
+            string name = Console.ReadLine();
+
+            Console.WriteLine("Enter persons age");
+            int age = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter corresponding digit to gender\n1:Male\n2:Female");
+            int result = Convert.ToInt32(Console.ReadLine());
+
+            if (result == 1)
+            {
+                personsGender = gender.male;
+            }
+            else if (result == 2)
+            {
+                personsGender = gender.female;
+            }
+
+            Person newPerson = new Person(name, age, personsGender);
+            personsList.Add(newPerson);
+            Console.WriteLine("New person added");
+
+            Console.WriteLine("Would you like to add a role to a person(y/n)");
             string reply = Console.ReadLine();
 
             if (reply == "y")
@@ -33,42 +56,13 @@ namespace Lectures
             }
             else if (reply == "n")
             {
-                Console.WriteLine("Press any key to close");
-                Console.ReadKey();
+                ReturnToMenu();
             }
             else
             {
                 Console.WriteLine("That reply is incorrect");
+                ReturnToMenu();
             }
-
-            Console.ReadKey();
-        }
-
-        private static void CreatePerson()
-        {
-            gender personsGender = gender.unassigned;
-
-            Console.WriteLine("Enter persons name");
-            string name = Console.ReadLine();
-
-            Console.WriteLine("Enter persons age");
-            int age = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Enter corresponding digit to gender");
-            Console.WriteLine("1:Male\n2:Female");
-            int result = Convert.ToInt32(Console.ReadLine());
-
-            if (result == 1)
-            {
-                personsGender = gender.male;
-            }
-            else if (result == 2)
-            {
-                personsGender = gender.female;
-            }
-
-            Person newPerson = new Person(name, age, personsGender);
-            personsList.Add(newPerson);
         }
 
         private static void CreateStudent()
@@ -85,11 +79,12 @@ namespace Lectures
                 }
             }
 
-            if (currentPerson == null) { Console.WriteLine("Person not found!"); return; }
+            if (currentPerson == null) { Console.WriteLine("Person not found!"); Menu(); }
 
             Student newStudent = new Student(currentPerson.name, currentPerson.age, currentPerson.gender);
             StudentList.Add(newStudent);
             Console.WriteLine("Student Added " + newStudent.name);
+            ReturnToMenu();
         }
 
         private static void CreateTeacher()
@@ -113,6 +108,78 @@ namespace Lectures
             Teacher newTeacher = new Teacher(currentPerson.name, currentPerson.age, currentPerson.gender, salary);
             teacherList.Add(newTeacher);
             Console.WriteLine("Teacher Added " + newTeacher.name);
+            ReturnToMenu();
+        }
+
+        private static void Menu()
+        {
+            Task.Delay(6000);
+            Console.Clear();
+            Console.WriteLine("Welcome to the St Johns Attendee database");
+            Console.WriteLine("Enter the coressponding digit to get started");
+            Console.WriteLine("1:Add a new person\n2:Add a new student\n3:Add a new teacher\n4:Display Students\n5: Display Teachers\n6: Exit Program");
+            int num = Convert.ToInt32(Console.ReadLine());
+
+           switch(num)
+            {
+                case 1:
+                    CreatePerson();
+                    break;
+                case 2:
+                    CreateStudent();
+                    break;
+                case 3:
+                    CreateTeacher();
+                    break;
+                case 4:
+                    DisplayStudents();
+                    break;
+                case 5:
+                    DisplayTeachers();
+                    break;
+                case 6:
+                    Environment.Exit(0);
+                    break;
+           }
+        }
+
+        private static void DisplayTeachers()
+        {
+            if (teacherList.Count <= 0)
+            {
+                Console.WriteLine("List is empty");
+                Menu();
+                return;
+            }
+            foreach (Teacher t in teacherList)
+            {
+                Console.WriteLine(t.name);
+            }
+            ReturnToMenu();
+        }
+
+        private static void DisplayStudents()
+        {
+            if (StudentList.Count <= 0)
+            {
+                Console.WriteLine("List is empty");
+                Menu();
+                return;
+            }
+            foreach (Student s in StudentList)
+            {
+                Console.WriteLine(s.name);
+            }
+
+            ReturnToMenu();
+        }
+
+        private static void ReturnToMenu()
+        {
+            Console.WriteLine("Enter 1 to exit");
+            int num = Convert.ToInt32(Console.ReadLine());
+            if (num == 1) { Menu(); }
+            else Menu();
         }
 
     }
