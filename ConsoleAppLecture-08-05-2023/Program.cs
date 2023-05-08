@@ -11,6 +11,37 @@
             Menu();
         }
 
+        private static void Menu()
+        {
+            Console.Clear();
+            Console.WriteLine("Welcome to the St Johns Attendee database");
+            Console.WriteLine("Enter the corresponding digit to get started");
+            Console.WriteLine("1:Add a new person\n2:Add a new student\n3:Add a new teacher\n4:Display Students\n5:Display Teachers\n6:Exit Program");
+            int num = Convert.ToInt32(Console.ReadLine());
+
+            switch (num)
+            {
+                case 1:
+                    CreatePerson();
+                    break;
+                case 2:
+                    CreateStudent();
+                    break;
+                case 3:
+                    CreateTeacher();
+                    break;
+                case 4:
+                    DisplayStudents();
+                    break;
+                case 5:
+                    DisplayTeachers();
+                    break;
+                case 6:
+                    Environment.Exit(0);
+                    break;
+            }
+        }
+
         private static void CreatePerson()
         {
             gender personsGender = gender.unassigned;
@@ -111,46 +142,16 @@
             ReturnToMenu();
         }
 
-        private static void Menu()
-        {
-            Task.Delay(6000);
-            Console.Clear();
-            Console.WriteLine("Welcome to the St Johns Attendee database");
-            Console.WriteLine("Enter the coressponding digit to get started");
-            Console.WriteLine("1:Add a new person\n2:Add a new student\n3:Add a new teacher\n4:Display Students\n5: Display Teachers\n6: Exit Program");
-            int num = Convert.ToInt32(Console.ReadLine());
-
-           switch(num)
-            {
-                case 1:
-                    CreatePerson();
-                    break;
-                case 2:
-                    CreateStudent();
-                    break;
-                case 3:
-                    CreateTeacher();
-                    break;
-                case 4:
-                    DisplayStudents();
-                    break;
-                case 5:
-                    DisplayTeachers();
-                    break;
-                case 6:
-                    Environment.Exit(0);
-                    break;
-           }
-        }
-
         private static void DisplayTeachers()
         {
             if (teacherList.Count <= 0)
             {
                 Console.WriteLine("List is empty");
+                Task.Delay(9000);
                 Menu();
                 return;
             }
+            Console.WriteLine("\n\nHere is a list of teachers:");
             foreach (Teacher t in teacherList)
             {
                 Console.WriteLine(t.name);
@@ -163,9 +164,11 @@
             if (StudentList.Count <= 0)
             {
                 Console.WriteLine("List is empty");
+                Task.Delay(9000);
                 Menu();
                 return;
             }
+            Console.WriteLine("\n\nHere is a list of students:");
             foreach (Student s in StudentList)
             {
                 Console.WriteLine(s.name);
