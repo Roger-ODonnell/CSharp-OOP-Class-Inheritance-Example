@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roger\\Desktop\\Programing\\C#\\OOP Project\\ConsoleAppLecture-08-05-2023\\ConsoleAppLecture-08-05-2023.csproj": {}
+    "C:\\Users\\roger\\Desktop\\Programing\\C#\\OOP Project\\ConsoleAppLecture-08-05-2023\\OOP-Inheriteance.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roger\\Desktop\\Programing\\C#\\OOP Project\\ConsoleAppLecture-08-05-2023\\ConsoleAppLecture-08-05-2023.csproj": {
+    "C:\\Users\\roger\\Desktop\\Programing\\C#\\OOP Project\\ConsoleAppLecture-08-05-2023\\OOP-Inheriteance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roger\\Desktop\\Programing\\C#\\OOP Project\\ConsoleAppLecture-08-05-2023\\ConsoleAppLecture-08-05-2023.csproj",
-        "projectName": "ConsoleAppLecture-08-05-2023",
-        "projectPath": "C:\\Users\\roger\\Desktop\\Programing\\C#\\OOP Project\\ConsoleAppLecture-08-05-2023\\ConsoleAppLecture-08-05-2023.csproj",
+        "projectUniqueName": "C:\\Users\\roger\\Desktop\\Programing\\C#\\OOP Project\\ConsoleAppLecture-08-05-2023\\OOP-Inheriteance.csproj",
+        "projectName": "OOP-Inheriteance",
+        "projectPath": "C:\\Users\\roger\\Desktop\\Programing\\C#\\OOP Project\\ConsoleAppLecture-08-05-2023\\OOP-Inheriteance.csproj",
         "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\roger\\Desktop\\Programing\\C#\\OOP Project\\ConsoleAppLecture-08-05-2023\\obj\\",
         "projectStyle": "PackageReference",

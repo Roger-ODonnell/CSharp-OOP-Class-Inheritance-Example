@@ -1,0 +1,15 @@
+C:\Users\roger\Desktop\Programing\C#\OOP Project\ConsoleAppLecture-08-05-2023\bin\Debug\net6.0\OOP-Inheriteance.exe
+C:\Users\roger\Desktop\Programing\C#\OOP Project\ConsoleAppLecture-08-05-2023\bin\Debug\net6.0\OOP-Inheriteance.deps.json
+C:\Users\roger\Desktop\Programing\C#\OOP Project\ConsoleAppLecture-08-05-2023\bin\Debug\net6.0\OOP-Inheriteance.runtimeconfig.json
+C:\Users\roger\Desktop\Programing\C#\OOP Project\ConsoleAppLecture-08-05-2023\bin\Debug\net6.0\OOP-Inheriteance.dll
+C:\Users\roger\Desktop\Programing\C#\OOP Project\ConsoleAppLecture-08-05-2023\bin\Debug\net6.0\OOP-Inheriteance.pdb
+C:\Users\roger\Desktop\Programing\C#\OOP Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\OOP-Inheriteance.csproj.AssemblyReference.cache
+C:\Users\roger\Desktop\Programing\C#\OOP Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\OOP-Inheriteance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\roger\Desktop\Programing\C#\OOP Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\OOP-Inheriteance.AssemblyInfoInputs.cache
+C:\Users\roger\Desktop\Programing\C#\OOP Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\OOP-Inheriteance.AssemblyInfo.cs
+C:\Users\roger\Desktop\Programing\C#\OOP Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\OOP-Inheriteance.csproj.CoreCompileInputs.cache
+C:\Users\roger\Desktop\Programing\C#\OOP Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\OOP-Inheriteance.dll
+C:\Users\roger\Desktop\Programing\C#\OOP Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\refint\OOP-Inheriteance.dll
+C:\Users\roger\Desktop\Programing\C#\OOP Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\OOP-Inheriteance.pdb
+C:\Users\roger\Desktop\Programing\C#\OOP Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\OOP-Inheriteance.genruntimeconfig.cache
+C:\Users\roger\Desktop\Programing\C#\OOP Project\ConsoleAppLecture-08-05-2023\obj\Debug\net6.0\ref\OOP-Inheriteance.dll
