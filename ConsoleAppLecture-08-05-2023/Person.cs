@@ -4,7 +4,7 @@
     {
         male,
         female,
-        unassigned,
+        notChosen,
     }
 
     class Person

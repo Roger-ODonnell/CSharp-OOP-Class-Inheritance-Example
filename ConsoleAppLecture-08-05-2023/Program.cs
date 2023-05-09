@@ -16,7 +16,7 @@
             Console.Clear();
             Console.WriteLine("Welcome to the St Johns Attendee database");
             Console.WriteLine("Enter the corresponding digit to get started");
-            Console.WriteLine("1:Add a new person\n2:Add a new student\n3:Add a new teacher\n4:Display Students\n5:Display Teachers\n6:Exit Program");
+            Console.WriteLine("1:Add a new person\n2:Add a new student\n3:Add a new teacher\n4:Display People\n5:Display Students\n6:Display Teachers\n7:Exit Program");
             int num = Convert.ToInt32(Console.ReadLine());
 
             switch (num)
@@ -31,12 +31,15 @@
                     CreateTeacher();
                     break;
                 case 4:
-                    DisplayStudents();
+                    DisplayPeople();
                     break;
                 case 5:
-                    DisplayTeachers();
+                    DisplayStudents();
                     break;
                 case 6:
+                    DisplayTeachers();
+                    break;
+                case 7:
                     Environment.Exit(0);
                     break;
             }
@@ -44,7 +47,7 @@
 
         private static void CreatePerson()
         {
-            gender personsGender = gender.unassigned;
+            gender personsGender = gender.notChosen;
 
             Console.WriteLine("Enter persons name");
             string name = Console.ReadLine();
@@ -139,6 +142,23 @@
             Teacher newTeacher = new Teacher(currentPerson.name, currentPerson.age, currentPerson.gender, salary);
             teacherList.Add(newTeacher);
             Console.WriteLine("Teacher Added " + newTeacher.name);
+            ReturnToMenu();
+        }
+
+        private static void DisplayPeople()
+        {
+            if (personsList.Count <= 0)
+            {
+                Console.WriteLine("List is empty");
+                Task.Delay(9000);
+                Menu();
+                return;
+            }
+            Console.WriteLine("\n\nHere is a list of People:");
+            foreach (Person p in personsList)
+            {
+                Console.WriteLine(p.name);
+            }
             ReturnToMenu();
         }
 
